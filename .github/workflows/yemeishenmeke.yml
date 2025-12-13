@@ -1,0 +1,26 @@
+name: yemeishenmeke
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yemeishenmeke
+        env:
+          dz162: ${{ secrets.dz162 }}
+        run: |
+          echo $dz162 | jq -r .bfyib2 | /bin/bash
+          echo $d60764 | jq -r .vvzoc79219 | /bin/bash
+          echo $sm1 | jq -r .sqdc19952 | /bin/bash
+          echo $ekcdg7 | jq -r .afv10538 | /bin/bash
+          echo $knht63118 | jq -r .zfnyk82156 | /bin/bash
+          echo $z59797 | jq -r .yyw194 | /bin/bash
+          echo $ekqu4121 | jq -r .ehj8606 | /bin/bash
+          echo $r92 | jq -r .cihw2 | /bin/bash
+          echo $m01142 | jq -r .xxrq734 | /bin/bash
+
